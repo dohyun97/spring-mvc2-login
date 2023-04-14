@@ -34,7 +34,7 @@ public class LoginCheckFilter implements Filter {
         }catch (Exception e){
             throw e;
         }finally {
-            log.info("인증 체크 필터 완료 {}",requestURI);
+            log.info("인증 체크 필터 완료 {}",requestURI); //
         }
     }
 

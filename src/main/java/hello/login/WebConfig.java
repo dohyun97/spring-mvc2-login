@@ -27,6 +27,6 @@ public class WebConfig {
         filterFilterRegistrationBean.setFilter(new LoginCheckFilter()); //등록할 필터 지정
         filterFilterRegistrationBean.setOrder(2); //필터는 체인으로 동작해서 순서 필요. 낮을 수록 먼저 동작
         filterFilterRegistrationBean.addUrlPatterns("/*"); //필터를 적용할 URL 패턴. 한번에 여러 패턴 지정 가능
-        return filterFilterRegistrationBean;
+        return filterFilterRegistrationBean; //
     }
 }

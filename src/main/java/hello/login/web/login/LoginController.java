@@ -123,7 +123,7 @@ public class LoginController {
         session.setAttribute(SessionConst.LOGIN_MEMBER,loginMember);
 
 
-        return "redirect:"+redirectURL;
+        return "redirect:"+redirectURL; //
     }
 
     //@PostMapping("/logout")
